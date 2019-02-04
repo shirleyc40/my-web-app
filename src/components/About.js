@@ -3,7 +3,7 @@ import { Image } from 'react-bootstrap';
 import { Grid, Button } from '@material-ui/core';
 import PropTypes from 'prop-types';
 import './About.css';
-import { SocialIcon } from 'react-social-icons';
+import { SocialIcon } from '../../node_modules/react-social-icons';
 
 
 class About extends React.Component {
