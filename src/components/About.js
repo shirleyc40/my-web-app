@@ -3,7 +3,7 @@ import { Image } from 'react-bootstrap';
 import { Grid, Button } from '@material-ui/core';
 import PropTypes from 'prop-types';
 import './About.css';
-import { SocialIcon } from '../../node_modules/react-social-icons';
+import { FaGithub, FaLinkedin, FaEnvelope } from 'react-icons/fa';
 
 
 class About extends React.Component {
@@ -21,9 +21,9 @@ class About extends React.Component {
                     <p>
                         Let's get in touch and feel free to look at the projects I've done!
                     </p>
-                    <SocialIcon className="icon" url="https://github.com/shirleyc40" />
-                    <SocialIcon className="icon" url="https://www.linkedin.com/in/shirley-chen-050719/" />
-                    <SocialIcon className='icon' url="mailto:sc2552@cornell.edu" />
+                    <a href="https://www.github.com/shirleyc40"><FaGithub className="icon" /></a>
+                    <a href="https://www.linkedin.com/in/shirley-chen-050719/"><FaLinkedin className="icon" /></a>
+                    <a href="mailto:sc2552@cornell.edu"><FaEnvelope className='icon' url="mailto:sc2552@cornell.edu" /></a>
                     <a href='/assets/Chen_Shirley_Resume.pdf' download className="download"><Button>Resume</Button></a>
                 </Grid>
 
