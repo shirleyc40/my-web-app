@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css?family=Bad+Script"); 
+@media only screen and (max-width: 600px) {
+    .fill {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+        height: 20rem;
+        width: 100%;
+        margin-bottom: 0px;
+    }
+    h2 {
+        margin-top: 20px;
+    }
+ }
+ @media only screen and (min-width: 601px) {
+    .fill {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+        height: 400px;
+        width: 100%;
+        margin-bottom: 0px;
+    }
+    h2 {
+        margin-top:0px;
+    }
+ }
+ @media only screen and (min-width: 768px) {
+    .fill {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+        height: 500px;
+        width: 100%;
+        margin-bottom: 0px;
+    }
+    h2 {
+        margin-top: 0px;
+    }
+ }
+ @media only screen and (min-width: 992px) {
+    .fill {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+        height: 550px;
+        width: 100%;
+        margin-bottom: 0px;
+    }
+    h2 {
+        margin-top: 0px;
+    }
+ }
+ @media only screen and (min-width: 1200px) {
+    .fill {
+        display: flex;
+        justify-content: center; 
+        align-items: center;
+        overflow: hidden;
+        height: 600px;
+        width: 100%;
+        margin-bottom: 0px;
+    }
+    h2 {
+        margin-top: 0px;
+    }
+ }
+h1{
+   position: absolute;
+    z-index: 1;
+    color:#f6fbfc;
+    font-family: 'Bad Script';
+}
+
+.pic {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin-top: 50px;
+    /* clip-path: polygon(0 0, 100% 0%, 75% 100%, 27% 100%); */
+    /* clip-path: polygon(0 0, 78% 0, 52% 100%, 0% 100%); */
+
+}
+.title {
+    background-color: #fbf1f2;
+    margin-bottom: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.icon {
+    display: inline-block;
+
+}
+
+

@@ -1,0 +1,30 @@
+@media only screen and (max-width: 600px) {
+    .profile-pic {
+        position: relative;
+        width : 50%;
+        clip-path: circle(50% at 50% 50%);
+    }
+}
+@media only screen and (min-width: 768px) { 
+    .container {
+        padding-top: 50px;
+        padding-bottom: 50px;
+        background-color: lightgray;
+        margin-top: 0px;
+    }
+}
+.profile-pic {
+    position: relative;
+    margin-right: 0 ;
+    width : 50%;
+    clip-path: circle(50% at 50% 50%);
+}
+
+.container {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: lightgray;
+}
+.download {
+    text-decoration: none
+}
