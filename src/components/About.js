@@ -11,7 +11,7 @@ class About extends React.Component {
         return (
             <Grid container className="container">
                 <Grid item xs={12} sm={6}>
-                    <Image src="assets/photo.jpg" className="profile-pic" id="about" />
+                    <Image src="assets/photo.JPG" className="profile-pic" id="about" />
                 </Grid>
                 <Grid item xs={12} sm={6}>
                     <p >Hello! I am born and raised in NYC, currently a sophomore studying Computer Science in Cornell University.
