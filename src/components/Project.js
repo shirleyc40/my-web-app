@@ -53,7 +53,7 @@ function Projects(props) {
                 </ExpansionPanel>
             </Grid>
             <Grid item xs={12} sm={6}>
-                <img src="assets/revitalize.PNG" className="image" />
+                <img src="assets/Revitalize.PNG" className="image" />
             </Grid>
             <Grid item xs={12} sm={6}>
                 <ExpansionPanel className={classes.expansion} elevation="elevation0">
