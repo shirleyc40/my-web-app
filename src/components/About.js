@@ -5,7 +5,10 @@ import PropTypes from 'prop-types';
 import './About.css';
 import { FaGithub, FaLinkedin, FaEnvelope } from 'react-icons/fa';
 
-
+const buttonStyle = {
+    marginTop: '-15px',
+    textAlign: 'center'
+};
 class About extends React.Component {
     render() {
         return (
@@ -24,7 +27,7 @@ class About extends React.Component {
                     <a href="https://www.github.com/shirleyc40"><FaGithub className="icon" /></a>
                     <a href="https://www.linkedin.com/in/shirley-chen-050719/"><FaLinkedin className="icon" /></a>
                     <a href="mailto:sc2552@cornell.edu"><FaEnvelope className='icon' url="mailto:sc2552@cornell.edu" /></a>
-                    <a href='/assets/Chen_Shirley_Resume.pdf' download className="download"><Button>Resume</Button></a>
+                    <a href='/assets/Chen_Shirley_Resume.pdf' download className="download"><Button style={buttonStyle}>Resume</Button></a>
                 </Grid>
 
             </Grid>
