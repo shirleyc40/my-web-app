@@ -35,7 +35,7 @@ function Projects(props) {
                    
             </Grid>
             <Grid item xs={12} sm={6}  >
-                <img src="assets/csa.png" className="image" />
+                <img src="assets/csa.PNG" className="image" />
             </Grid>
             <Grid item xs={12} sm={6} className={classes.grid}>
                         <h5 >CSA Website</h5>
