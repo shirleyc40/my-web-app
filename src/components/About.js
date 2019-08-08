@@ -17,9 +17,9 @@ class About extends React.Component {
                     <Image src="assets/photo.JPG" className="profile-pic" id="about" />
                 </Grid>
                 <Grid item xs={12} sm={6}>
-                    <p >Hello! I am born and raised in NYC, currently a sophomore studying Computer Science in Cornell University.
-                        I love to learn and am always looking for opportunities to improve. I enjoy traveling and eating foods from different
-                        cultures!
+                    <p >Hello! I am born and raised in NYC, currently a junior studying Computer Science in Cornell University.
+                        I love to learn and am always looking for opportunities to improve. I want to
+                        use technology to help the society. I enjoy traveling and eating foods from different cultures!
                     </p>
                     <p>
                         Let's get in touch and feel free to look at the projects I've done!
