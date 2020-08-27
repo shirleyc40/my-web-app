@@ -1,8 +1,12 @@
 @media only screen and (max-width: 600px) {
-    .profile-pic {
-        position: relative;
-        width : 50%;
-        clip-path: circle(50% at 50% 50%);
+    body .skillContainer {
+        display: inline-block;
+        width: 25%;
+        margin-right: 20px;
+        text-align: center;
+    }
+    .skillLabel {
+        font-size: 10px
     }
 }
 @media only screen and (min-width: 768px) { 
@@ -11,6 +15,15 @@
         padding-bottom: 50px;
         background-color: lightgray;
         margin-top: 0px;
+    }
+    .skillContainer {
+        display: inline-block;
+        width: 25%;
+        margin-right: 20px;
+        text-align: center;
+    }
+    .skillLabel {
+        font-size: 16px
     }
 }
 .profile-pic {
@@ -28,10 +41,11 @@
 .download {
     text-decoration: none
 }
-.icon {
-    height: 30px;
-    width: 30px;
+
+.skillContainer {
+    display: inline-block;
+    width: 10%;
+    margin-right: 20px;
+    text-align: center
 }
-a{
-    color: black;
-}
+
